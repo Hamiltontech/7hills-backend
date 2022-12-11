@@ -62,6 +62,15 @@
       ],
       "default": "entertainment",
       "required": true
+    },
+    "admin_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
+    },
+    "Reactions": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
