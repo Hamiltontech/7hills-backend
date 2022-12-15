@@ -71,6 +71,10 @@
     "Reactions": {
       "type": "integer",
       "default": 0
+    },
+    "Username": {
+      "type": "string",
+      "default": "admin_user"
     }
   }
 }
