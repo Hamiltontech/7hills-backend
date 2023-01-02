@@ -63,18 +63,28 @@
       "default": "entertainment",
       "required": true
     },
-    "admin_user": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "admin::user"
+    "Comment": {
+      "type": "text"
     },
-    "Reactions": {
+    "love": {
       "type": "integer",
       "default": 0
     },
-    "Username": {
-      "type": "string",
-      "default": "admin_user"
+    "laugh": {
+      "type": "integer",
+      "default": 0
+    },
+    "unicorn": {
+      "type": "integer",
+      "default": 0
+    },
+    "clap": {
+      "type": "integer",
+      "default": 0
+    },
+    "cheer": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
