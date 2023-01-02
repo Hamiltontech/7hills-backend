@@ -63,9 +63,6 @@
       "default": "entertainment",
       "required": true
     },
-    "Comment": {
-      "type": "text"
-    },
     "love": {
       "type": "integer",
       "default": 0
