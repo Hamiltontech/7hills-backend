@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ads",
+  "info": {
+    "singularName": "ad",
+    "pluralName": "ads",
+    "displayName": "Ad",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Code": {
+      "type": "richtext"
+    },
+    "Position": {
+      "type": "enumeration",
+      "enum": [
+        "Top-Home",
+        "Bottom-Home",
+        "Quizzes",
+        "HotDeals",
+        "Article"
+      ]
+    }
+  }
+}
