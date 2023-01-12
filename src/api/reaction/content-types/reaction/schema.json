@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reactions",
+  "info": {
+    "singularName": "reaction",
+    "pluralName": "reactions",
+    "displayName": "Reaction",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Number": {
+      "type": "integer",
+      "default": 0
+    },
+    "PostID": {
+      "type": "integer"
+    },
+    "Type": {
+      "type": "string",
+      "default": "like"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reacts",
+  "info": {
+    "singularName": "react",
+    "pluralName": "reacts",
+    "displayName": "React"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Type": {
+      "type": "string"
+    },
+    "PostID": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "spotifies",
+  "info": {
+    "singularName": "spotify",
+    "pluralName": "spotifies",
+    "displayName": "Spotify"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "embed_link": {
+      "type": "richtext"
+    }
+  }
+}
